@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR5g0176/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0176/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清河圖內玄經
+  date: '2015-08-29 02:59:34.912586'
+  source:
+    repository: kanripo
+    path: KR5g0176
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0176_000-HFL.yaml, hash: 'sha256:3527e7e3b470ed057bda331d63de93f19276de226fd48852778293aff18da8e3'}
+  - {seq: 1, filename: KR5g0176_001-HFL.yaml, hash: 'sha256:48614a7dca9f15853152718b184b294bacaef5bdba8c9bb81b4014553689ef02'}
+  - {seq: 2, filename: KR5g0176_002-HFL.yaml, hash: 'sha256:c97e696c2f3470291822d572dbd0c1ff70b9da84d2ddc3096a59858ead661d8c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5g0176_001-HFL.markers.yaml, hash: 'sha256:0ed7e6ceb58154630a3e0fce16789221b149c033ef820b2d038c7d8bc2e49bd0'}
+  - {seq: 2, role: markers, filename: assets/KR5g0176_002-HFL.markers.yaml, hash: 'sha256:80f38b57de2dc0dac53940428d6a9035d975a69a7a23ec3a7b6b668dfe629a7f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5g0176_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 4222
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5g0176_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 5221
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:d7e1fbd1259f6266aaa33f0264f04d4c4c216bfbc18ba307ef5afac33eeadc7c
